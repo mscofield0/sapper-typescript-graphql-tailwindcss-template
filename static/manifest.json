@@ -22,7 +22,7 @@
 	"start_url": "/",
 	"display": "minimal-ui",
 	"background_color": "#FFFFFF",
-	"theme_color": "#3F83F8",
+	"theme_color": "#333333",
 	"screenshots": [
 		{
 			"src": "screenshot-1.png",

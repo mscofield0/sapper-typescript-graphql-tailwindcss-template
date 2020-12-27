@@ -18,7 +18,7 @@
 		"url": "https://github.com/mscofield0/sapper-typescript-graphql-tailwindcss-template.git"
 	},
 	"license": "MIT",
-	"version": "2020.11.28",
+	"version": "2020.12.27",
 	"scripts": {
 		"eslint": "eslint",
 		"eslint:fix": "eslint --fix ./*.js ./src/*.ts ./src/components/**/*.svelte ./src/graphql/**/*.ts ./src/routes/**/*.svelte ./src/routes/**/*.ts",
@@ -34,8 +34,11 @@
 	},
 	"dependencies": {
 		"compression": "^1.7.4",
+		"cssnano": "^4.1.10",
 		"express": "^4.17.1",
+		"kleur": "^4.1.3",
 		"node-fetch": "^2.6.1",
+		"postcss-import": "^14.0.0",
 		"sirv": "^1.0.7",
 		"tailwindcss": "^2.0.1"
 	},

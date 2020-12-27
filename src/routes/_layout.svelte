@@ -1,6 +1,4 @@
 <script context="module">
-	import Tailwindcss from "../components/Tailwindcss.svelte";
-
 	export const preload = () => {};
 </script>
 
@@ -19,8 +17,6 @@
 	let path: string;
 	$: path = $page.path.slice(1);
 </script>
-
-<Tailwindcss />
 
 <svelte:head>
 	<title>
